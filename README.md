@@ -1,12 +1,20 @@
-# wedding
+# GPT PROMT
 
 - 모바일 청첩장을 만들거야
+
 * css를 포함해서 index.html 파일 하나로 만들어줘
 * 모든 이미지는 index.html과 같은 repository에 있어
-* 모바일 청첩장이지만 혹시 PC에서 모바일청첩장을 열어도 dimension 은 mobile과 똑같은 크기로 보여주면 돼 <꼭 지켜줘 > .
+* 모바일 청첩장이지만 혹시 PC에서 모바일청첩장을 열어도 dimension 은 mobile과 똑같은 크기로 보여주면 돼 - 너비를 꼭 지켜줘
+* PC에서 볼 때, 왼쪽과 오른쪽에 남는 부분은 어두운 색으로 만들어
+* 이미지가 잘리거나 튀어나오지 않게 해
 * 모든 글씨는 가운데 정렬이고, 글씨체는 최대한 고급스럽고 세련된 걸로 적용해줘.
-* 글씨체는 'https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Parisienne&display=swap' , 'https://fonts.cdnfonts.com/css/francisco', 'https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400&family=Gowun+Batang&family=Parisienne&display=swap' 3개를 활용해줘
-* '*'를 적어놓은 요구사항을 모두 꼭 적용해서 하나씩 하나씩 작성해줘
+* 글씨체는 아래에 폰트를 불러와서 사용해. 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+
+* 적어놓은 요구사항을 모두 꼭 적용해서 하나씩 하나씩 작성해줘
 
 
 * 순서는 아래와 같아
@@ -39,9 +47,9 @@
 
 [ 달력 ]  
 그다음은 달력을 넣어줄건데 
-* 표로 2025년 10월 달력을 만들어
+* 표로 2025년 10월 1일~31일 까지 달력을 만들어
 * 달력 1열에 일 월 화 수 목 금 토 순서로 적어줘
-* 그리고 15일에 하트로 동그라미 쳐줘
+* 그리고 15일에 숫자 15 겉에 하트로 표시해줘 쳐줘
 이 달력을 넣어줘
 
 [ 디데이 ] 
@@ -80,8 +88,9 @@
 
 * 이 부분에 10줄 공백을 만들어줘
 
-'신랑측 계좌번호' 와 '신부측 계좌번호' 토글버튼을 만들어서 아래 정보가 보이도록 해줘 
+'신랑측 계좌번호' 와 '신부측 계좌번호' 토글버튼을 만들거야.
 토글버튼에는 아래화살표를 넣어서 버튼을 누르면 아래에 정보가 뜬다는 것을 인지되게끔 해주자
+'신랑측 계좌번호' 와 '신부측 계좌번호' 을 양 옆에 나란히 위치시켜.
 
 '신랑측 계좌번호' 토글에는
 신랑 메시 계좌번호 카카오뱅크 3333-3333-3333, 연락처 010-3333-3333
